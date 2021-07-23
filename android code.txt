@@ -1,0 +1,35 @@
+<!-- Template 2 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/template_2"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/template_2"
+ />
+
+
+<!-- drawable/template_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1600dp"
+android:height="1600dp"
+android:viewportWidth="1600"
+android:viewportHeight="1600"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1600V1600H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V1600H1600V0"
+android:fillColor="#E9EBF1"
+/>
+
+</group>
+
+</vector>
